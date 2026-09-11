@@ -6,7 +6,7 @@
 
 <br>
 
-<a href="https://www.linkedin.com/in/hamid-raza-bajwa-564a91377"><img src="https://img.shields.io/badge/LinkedIn-1a1b26?style=for-the-badge&logo=linkedin&logoColor=7aa2f7" /></a>
+<a href="https://www.linkedin.com/in/hamidrazabajwa49"><img src="https://img.shields.io/badge/LinkedIn-1a1b26?style=for-the-badge&logo=linkedin&logoColor=7aa2f7" /></a>
 <a href="https://x.com/hs_developers18"><img src="https://img.shields.io/badge/X-1a1b26?style=for-the-badge&logo=X&logoColor=bb9af7" /></a>
 <a href="mailto:hamidrazabajwa49@gmail.com"><img src="https://img.shields.io/badge/Email-1a1b26?style=for-the-badge&logo=gmail&logoColor=7dcfff" /></a>
 
@@ -65,11 +65,11 @@ Agents built at the API level — Gemini, OpenAI — while I still trust myself 
 
 <br>
 
-## 🔭 Currently Building
+## 🔭 Flagship Builds
 
 <table width="100%">
 <tr>
-<td width="50%" valign="top">
+<td width="100%" valign="top">
 
 ### 🤖 Lead Qualifier Agent
 
@@ -84,17 +84,15 @@ Screens for spam/prompt-injection, builds a company profile, scores fit against 
 **[→ github.com/hamidrazabajwa49/lead-qualifier-agent](https://github.com/hamidrazabajwa49/lead-qualifier-agent)**
 
 </td>
-<td width="50%" valign="top">
+</tr>
+<tr>
+<td width="100%" valign="top">
 
-### 📐 60 ML/AI Systems, From Scratch
+### 📐 ML/AI Systems, Built From Scratch
 
-Not a 60-day sprint — **60 individual systems**, each derived from raw math, with its own README, derivations, and unit tests. No `sklearn.fit()` shortcuts.
+Machine learning, deep learning, and statistics implemented from mathematical first principles in pure Python — no `sklearn.fit()` shortcuts, no NumPy/SciPy/scikit-learn at runtime. Each system ships with its own README, derivations, and unit tests.
 
-- [x] Math foundations — vectors, matrices, probability, Bayesian inference, optimization
-- [x] Linear & logistic regression
-- [ ] Trees, SVMs, ensembles *(next)*
-- [ ] Deep learning — backprop, CNNs, RNNs, Transformers from raw tensor ops
-- [ ] RAG (LangChain + FAISS), LoRA fine-tuning (HF PEFT)
+Covers math foundations (vectors, matrices, probability, Bayesian inference, optimization) through to classical ML — linear regression, logistic regression, t-test, chi-square, ANOVA.
 
 **[→ github.com/hamidrazabajwa49/ml-implementation-from-scratch](https://github.com/hamidrazabajwa49/ml-implementation-from-scratch)**
 
@@ -201,7 +199,7 @@ Open to working on:
 - Math-heavy ML implementations — loss functions, optimizers, from scratch
 - Turning research papers into runnable code
 
-Reach out via [LinkedIn](https://www.linkedin.com/in/hamid-raza-bajwa-564a91377) or [email](mailto:hamidrazabajwa49@gmail.com).
+Reach out via [LinkedIn](https://www.linkedin.com/in/hamidrazabajwa49) or [email](mailto:hamidrazabajwa49@gmail.com).
 
 <div align="center">
 <br>
