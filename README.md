@@ -2,7 +2,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1b26,100:7aa2f7&height=210&section=header&text=Hamid%20Raza%20Bajwa&fontSize=46&fontColor=c0caf5&fontAlignY=40&desc=CS%20Student%20%E2%80%A2%20Math-First%20ML%20Builder%20%E2%80%A2%20Agent%20Engineer&descAlignY=60&descSize=17" />
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&pause=1000&color=7DCFFF&center=true&vCenter=true&width=680&lines=Deriving+the+math+before+I+trust+the+library+%F0%9F%A7%AE;Auditing+every+notebook+for+leakage+before+it+ships+%F0%9F%94%8D;Building+agents+directly+on+the+Gemini+%2F+OpenAI+APIs+%F0%9F%A4%96;60+systems%2C+zero+shortcuts%2C+one+at+a+time+%F0%9F%94%A5" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&pause=1000&color=7DCFFF&center=true&vCenter=true&width=680&lines=Deriving+the+math+before+I+trust+the+library+%F0%9F%A7%AE;Auditing+every+notebook+for+leakage+before+it+ships+%F0%9F%94%8D;Building+agents+directly+on+the+Gemini+%2F+OpenAI+APIs+%F0%9F%A4%96;No+shortcuts%2C+no+fit()+until+I've+derived+it+myself+%F0%9F%94%A5" />
 
 <br>
 
@@ -73,13 +73,13 @@ Agents built at the API level — Gemini, OpenAI — while I still trust myself 
 
 ### 🤖 Lead Qualifier Agent
 
-Multi-agent lead-qualification pipeline, capstone for the **Google × Kaggle 5-Day AI Agent Intensive**, powered by the **Gemini API**.
+Multi-agent lead-qualification pipeline on **Google ADK**, capstone for the **Google × Kaggle 5-Day AI Agent Intensive**.
 
 ```
 inbound lead → security checkpoint → enricher → scorer → human review
 ```
 
-Screens for spam/prompt-injection, builds a company profile, scores fit against an ICP, and routes low-confidence leads to a human instead of auto-approving them.
+A security checkpoint sub-agent handles prompt-injection detection and PII redaction, enrichment/scoring sub-agents run via AgentTool with a custom MCP toolset, and low-confidence leads route to a human instead of auto-approving. Deployed with Docker + Terraform.
 
 **[→ github.com/hamidrazabajwa49/lead-qualifier-agent](https://github.com/hamidrazabajwa49/lead-qualifier-agent)**
 
@@ -92,9 +92,20 @@ Screens for spam/prompt-injection, builds a company profile, scores fit against 
 
 Machine learning, deep learning, and statistics implemented from mathematical first principles in pure Python — no `sklearn.fit()` shortcuts, no NumPy/SciPy/scikit-learn at runtime. Each system ships with its own README, derivations, and unit tests.
 
-Covers math foundations (vectors, matrices, probability, Bayesian inference, optimization) through to classical ML — linear regression, logistic regression, t-test, chi-square, ANOVA.
+Covers math foundations (linear algebra, probability, Bayesian inference, optimization, information theory) through to classical ML — t-test, chi-square, ANOVA, linear/logistic regression.
 
 **[→ github.com/hamidrazabajwa49/ml-implementation-from-scratch](https://github.com/hamidrazabajwa49/ml-implementation-from-scratch)**
+
+</td>
+</tr>
+<tr>
+<td width="100%" valign="top">
+
+### 🔥 Deep Learning, From First Principles
+
+Progressive PyTorch curriculum built from the ground up — tensors, autograd, custom `nn.Module`s, `Dataset`/`DataLoader` pipelines, full training loops, and ANN/CNN image classifiers on Fashion MNIST. Includes GPU support, LR scheduling, per-class metrics, and Optuna-based hyperparameter tuning.
+
+**[→ github.com/hamidrazabajwa49/deep-learning](https://github.com/hamidrazabajwa49/deep-learning)**
 
 </td>
 </tr>
@@ -123,7 +134,7 @@ Found a feature mathematically guaranteed to equal 1.0 for every winner — a re
 
 Caught a same-day traffic-count leak from two mismatched fiscal-year datasets. Rebuilt with a history baseline recomputed inside each CV fold.
 
-`Tuned GBM — R² 0.744`
+`R² 0.99 → 0.74`
 
 **[→ Repo](https://github.com/hamidrazabajwa49/nyc-traffic-volume-prediction)**
 
@@ -132,11 +143,9 @@ Caught a same-day traffic-count leak from two mismatched fiscal-year datasets. R
 
 **💳 Credit Card Fraud**
 
-One model scored a perfect 1.0000 on every metric. Instead of celebrating, audited it feature-by-feature — traced to synthetic-data separability, not leakage.
+One model scored a near-perfect 1.000 PR-AUC. Instead of celebrating, audited it feature-by-feature — traced to synthetic-data separability, not leakage.
 
 `Verified, not assumed`
-
-**[→ Repo](https://github.com/hamidrazabajwa49/credit-card-fraud-detection)**
 
 </td>
 </tr>
