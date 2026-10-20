@@ -191,6 +191,8 @@ Removed leaked features from a batting-performance model and reported the honest
 
 `R² 0.98 → 0.782`
 
+**[→ Repo](https://github.com/hamidrazabajwa49/t20-cricket-batting-prediction)**
+
 </td>
 </tr>
 <tr>
