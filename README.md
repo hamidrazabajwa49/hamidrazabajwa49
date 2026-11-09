@@ -23,7 +23,6 @@
 **🧠 ML / Data**
 
 ![PyTorch](https://img.shields.io/badge/PyTorch-1a1b26?style=flat-square&logo=PyTorch&logoColor=7aa2f7)
-![JAX](https://img.shields.io/badge/JAX-1a1b26?style=flat-square&logoColor=bb9af7)
 ![sklearn](https://img.shields.io/badge/sklearn-1a1b26?style=flat-square&logo=scikit-learn&logoColor=bb9af7)
 ![XGBoost](https://img.shields.io/badge/XGBoost-1a1b26?style=flat-square&logoColor=7dcfff)
 ![Optuna](https://img.shields.io/badge/Optuna-1a1b26?style=flat-square&logoColor=c0caf5)
@@ -62,7 +61,6 @@
 ![MySQL](https://img.shields.io/badge/MySQL-1a1b26?style=flat-square&logo=mysql&logoColor=7aa2f7)
 ![Supabase](https://img.shields.io/badge/Supabase-1a1b26?style=flat-square&logo=supabase&logoColor=9ece6a)
 ![Docker](https://img.shields.io/badge/Docker-1a1b26?style=flat-square&logo=docker&logoColor=7dcfff)
-![Terraform](https://img.shields.io/badge/Terraform-1a1b26?style=flat-square&logo=terraform&logoColor=bb9af7)
 ![Git](https://img.shields.io/badge/Git-1a1b26?style=flat-square&logo=git&logoColor=c0caf5)
 
 </td>
